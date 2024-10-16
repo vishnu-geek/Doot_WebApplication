@@ -7,7 +7,7 @@ import {
   Struct,
   ZkProgram,
   SelfProof,
-} from "o1js;
+} from "o1js";
 
 class PriceAggregationArray20 extends Struct({
   pricesArray: Provable.Array(UInt64, 20,
