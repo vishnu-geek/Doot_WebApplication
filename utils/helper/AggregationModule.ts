@@ -7,11 +7,11 @@ import {
   Struct,
   ZkProgram,
   SelfProof,
-} from "o1js";//o1js is a typescript library for writing zk smartcontracts for MINA
+} from "o1js;
 
-class PriceAggregationArray20 extends Struct({//inheritng struct class from o1js
-  pricesArray: Provable.Array(UInt64, 20),//defining array of size 20
-  count: UInt64,//defingn variable for incrementing
+class PriceAggregationArray20 extends Struct({
+  pricesArray: Provable.Array(UInt64, 20,
+  count: UInt64,
 }) {
   constructor(value: { pricesArray: UInt64[]; count: UInt64 }) {
     super(value);
