@@ -7,6 +7,7 @@ function normalizePrice(subone, str) {
   return num; // Returns the normalized and rounded price.
 }
 
+
 async function generateGraphData(//
   subone,
   latest,
