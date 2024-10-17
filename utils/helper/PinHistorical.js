@@ -1,4 +1,5 @@
-const axios = require("axios");
+
+const axios = require("axios");//Axios is javaScript frameWork used to perform CRUD Operations
 const JWT = process.env.PINATA_JWT;
 const GATEWAY = process.env.NEXT_PUBLIC_PINATA_GATEWAY;
 
